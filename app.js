@@ -1,6 +1,6 @@
 import express from "express";
 import { pool } from "./db.js";
-import { login, protegida } from "./src/controllers/controller_login.js";
+import { login, protegida } from "./controller_login.js";
 import cookieParser from "cookie-parser";
 
 const app = express()
